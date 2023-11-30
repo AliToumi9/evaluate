@@ -1,0 +1,13 @@
+/***********************************************************************************
+ *                      ALL PURPOSE SHARED SASS VARIABLES                          *
+ *                                                                                 *
+ * Sass **variables** that are meant to be used across multiple components         *
+ * should be put there, in order to avoid discrepancies and facilitate changes.    *
+ * (This file must be in impoprted in the target scss files)                       *
+ *                                                                                 *
+ * NOTE: Global **styles** should be put in styles.scss                            *
+ *                                                                                 *
+ ***********************************************************************************/
+
+// Maximum width of the window to be considered as a small-screen
+$smallscreen-max-width: 768px;

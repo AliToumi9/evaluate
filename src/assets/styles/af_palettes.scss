@@ -1,0 +1,8 @@
+@use 'node_modules/@angular/material' as mat;
+@import 'node_modules/@angular/material/_theming';
+@import "./af_colors";
+
+$af-theme-primary: mat.define-palette($af-blue, 500, 300, 900);
+// $af-theme-accent: mat-palette($af-red, 500, 300, 700);
+$af-theme-accent: mat.define-palette($af-blue, 100, 50, 200);
+$af-theme-warn: mat.define-palette(mat.$red-palette);

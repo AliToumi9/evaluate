@@ -1,0 +1,13 @@
+@use 'node_modules/@angular/material' as mat;
+@import 'node_modules/@angular/material/_theming';
+@import "./af_palettes.scss";
+
+$af-theme: mat.define-light-theme((
+color: (
+primary: $af-theme-primary,
+accent: $af-theme-accent,
+warn: $af-theme-warn
+),
+typography: mat.define-typography-config(),
+density: 0,
+));

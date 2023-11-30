@@ -1,0 +1,66 @@
+@import 'node_modules/@angular/material/_theming';
+
+$af-blue: (
+  50 : #e0e0f1,
+  100 : #DFF2FD, // Standard AF light blue
+  200 : #8080c3,
+  300 : #98E1F1,
+  400 : #1100FF,
+  500 : #051039, // Standard AF dark blue
+  600 : #14438b,
+  700 : #1100FF,
+  800 : #0800B9,
+  900 : #000057,
+  A100 : #8989ff,
+  A200 : #5656ff,
+  A400 : #2323ff,
+  A700 : #0909ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+$af-red: (
+  50 : #fce0ea,
+  100 : #f7b3ca,
+  200 : #f8c0d0,
+  300 : #eb4d84,
+  400 : #e72669,
+  500 : #e3004f,
+  600 : #ff0000,
+  700 : #d40504,
+  800 : #d80036,
+  900 : #d00026,
+  A100 : #fff8f9,
+  A200 : #ffc5cc,
+  A400 : #ff929f,
+  A700 : #ff7989,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
